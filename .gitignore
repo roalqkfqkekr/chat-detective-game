@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables and local secrets
+.env
+.env.*
+
+# Firebase/Gemini local configuration with real keys
+src/firebaseConfig.js
+firebaseConfig.js
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Local logs and review artifacts
+*.log
+screenshots/
