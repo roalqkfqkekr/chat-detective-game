@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://roalqkfqkekr.github.io/chat-detective-game/sitemap.xml
+Sitemap: https://playatelier.github.io/chat-detective-game/sitemap.xml

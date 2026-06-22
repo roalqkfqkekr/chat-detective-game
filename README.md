@@ -4,8 +4,8 @@
 
 기본 포함 사건은 3개입니다. `사라진 축제 정산금`, `잠긴 방송실의 사라진 원본`, `익명 계정의 조작 캡처`를 선택해서 플레이할 수 있습니다.
 
-- 저장소: [chat-detective-game](https://github.com/roalqkfqkekr/chat-detective-game)
-- 배포 링크: [톡탐정 웹게임](https://roalqkfqkekr.github.io/chat-detective-game/)
+- 저장소: [chat-detective-game](https://github.com/playatelier/chat-detective-game)
+- 배포 링크: [톡탐정 웹게임](https://playatelier.github.io/chat-detective-game/)
 
 ## 주요 기능
 
@@ -67,36 +67,38 @@ python -m http.server 8080
 
 ## 검색엔진 등록 및 노출 방법
 
-- 사이트 주소: `https://roalqkfqkekr.github.io/chat-detective-game/`
-- sitemap 주소: `https://roalqkfqkekr.github.io/chat-detective-game/sitemap.xml`
-- robots 주소: `https://roalqkfqkekr.github.io/chat-detective-game/robots.txt`
+- 사이트 주소: `https://playatelier.github.io/chat-detective-game/`
+- sitemap 주소: `https://playatelier.github.io/chat-detective-game/sitemap.xml`
+- robots 주소: `https://playatelier.github.io/chat-detective-game/robots.txt`
 
 기본 SEO 설정은 `index.html`의 robots, canonical, Open Graph, Twitter Card, theme-color, favicon 메타 태그로 구성되어 있습니다. 검색엔진 등록은 각 서비스 계정 인증이 필요하므로 직접 로그인 후 아래 순서대로 진행합니다.
+
+GitHub username을 변경한 경우 기존 Google Search Console, Naver Search Advisor, Bing Webmaster Tools에 등록된 예전 주소 속성은 새 주소로 자동 이전되지 않을 수 있습니다. `https://playatelier.github.io/chat-detective-game/`를 새 URL 속성으로 다시 등록하고 sitemap도 새 주소로 다시 제출하세요. 기존 Google 인증 파일이 있다면 파일 자체는 그대로 둘 수 있지만, 새 URL 속성 인증 과정에서 검색엔진이 요구하는 방식에 맞춰 다시 확인해야 합니다.
 
 Google Search Console:
 
 1. `https://search.google.com/search-console`에 접속합니다.
 2. `속성 추가`에서 `URL 접두어`를 선택합니다.
-3. `https://roalqkfqkekr.github.io/chat-detective-game/`를 입력합니다.
+3. `https://playatelier.github.io/chat-detective-game/`를 입력합니다.
 4. HTML 파일 업로드 방식으로 소유권을 인증합니다.
-5. 인증 후 `Sitemaps` 메뉴에서 `https://roalqkfqkekr.github.io/chat-detective-game/sitemap.xml`을 제출합니다.
+5. 인증 후 `Sitemaps` 메뉴에서 `https://playatelier.github.io/chat-detective-game/sitemap.xml`을 제출합니다.
 6. URL 검사에서 메인 URL을 입력하고 실제 URL 테스트 후 색인 생성을 요청합니다.
 
 Naver Search Advisor:
 
 1. `https://searchadvisor.naver.com`에 접속합니다.
 2. 웹마스터 도구에서 사이트를 등록합니다.
-3. `https://roalqkfqkekr.github.io/chat-detective-game/`를 입력합니다.
+3. `https://playatelier.github.io/chat-detective-game/`를 입력합니다.
 4. HTML 파일 업로드 방식으로 소유확인을 진행합니다.
-5. 사이트맵으로 `https://roalqkfqkekr.github.io/chat-detective-game/sitemap.xml`을 제출합니다.
+5. 사이트맵으로 `https://playatelier.github.io/chat-detective-game/sitemap.xml`을 제출합니다.
 6. 웹페이지 수집 요청에 메인 URL을 제출합니다.
 
 Bing Webmaster Tools:
 
 1. `https://www.bing.com/webmasters`에 접속합니다.
-2. 사이트 추가에서 `https://roalqkfqkekr.github.io/chat-detective-game/`를 입력합니다.
+2. 사이트 추가에서 `https://playatelier.github.io/chat-detective-game/`를 입력합니다.
 3. 소유권 인증을 완료합니다.
-4. sitemap 제출 메뉴에 `https://roalqkfqkekr.github.io/chat-detective-game/sitemap.xml`을 등록합니다.
+4. sitemap 제출 메뉴에 `https://playatelier.github.io/chat-detective-game/sitemap.xml`을 등록합니다.
 5. URL Submission에서 메인 URL을 제출합니다.
 
 검색 반영에는 며칠에서 몇 주까지 걸릴 수 있으며, 검색 노출 순위는 보장되지 않습니다. GitHub Project Pages에서는 `robots.txt`가 도메인 루트가 아니라 `/chat-detective-game/robots.txt`에 놓입니다. 그래도 sitemap은 Google Search Console, Naver Search Advisor, Bing Webmaster Tools에 직접 제출할 수 있습니다. 장기적으로는 커스텀 도메인을 연결하면 `robots.txt`와 sitemap 관리가 더 깔끔합니다.
