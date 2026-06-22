@@ -88,10 +88,12 @@ Naver Search Advisor:
 
 1. `https://searchadvisor.naver.com`에 접속합니다.
 2. 웹마스터 도구에서 사이트를 등록합니다.
-3. `https://playatelier.github.io/chat-detective-game/`를 입력합니다.
-4. HTML 파일 업로드 방식으로 소유확인을 진행합니다.
-5. 사이트맵으로 `https://playatelier.github.io/chat-detective-game/sitemap.xml`을 제출합니다.
-6. 웹페이지 수집 요청에 메인 URL을 제출합니다.
+3. 네이버 서치어드바이저 사이트 등록 주소는 `https://playatelier.github.io`로 시도합니다.
+4. 실제 서비스 주소는 `https://playatelier.github.io/chat-detective-game/`입니다.
+5. GitHub Project Pages는 하위 경로 사이트이므로 네이버 인증이 까다로울 수 있습니다.
+6. 우선 HTML 태그 인증 방식을 사용합니다. 현재 `index.html`에는 네이버 인증 meta 태그가 추가되어 있습니다.
+7. 인증 후 사이트맵 제출 주소는 `https://playatelier.github.io/chat-detective-game/sitemap.xml`입니다.
+8. 인증 후 웹페이지 수집 요청 주소는 `https://playatelier.github.io/chat-detective-game/`입니다.
 
 Bing Webmaster Tools:
 
