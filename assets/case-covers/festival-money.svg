@@ -1,0 +1,34 @@
+<svg width="720" height="420" viewBox="0 0 720 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Festival settlement money case cover</title>
+  <desc id="desc">Abstract case cover with cash envelope, calculator, and yellow evidence pin.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#261C10"/>
+      <stop offset=".58" stop-color="#12213A"/>
+      <stop offset="1" stop-color="#06101E"/>
+    </linearGradient>
+    <linearGradient id="cash" x1="183" y1="170" x2="498" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F3E8"/>
+      <stop offset="1" stop-color="#D7E2F2"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="420" rx="34" fill="url(#bg)"/>
+  <path d="M70 92h190M500 78h116M82 338h176M510 342h118" stroke="#FFD166" stroke-opacity=".16" stroke-width="5" stroke-linecap="round"/>
+  <rect x="142" y="174" width="330" height="152" rx="16" fill="url(#cash)" stroke="#FFD166" stroke-width="5"/>
+  <path d="M145 184l162 90 162-90" stroke="#182033" stroke-opacity=".34" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="424" y="116" width="150" height="204" rx="24" fill="#101B2E" stroke="#5EEAD4" stroke-width="5"/>
+  <rect x="452" y="145" width="94" height="34" rx="8" fill="#F7F3E8"/>
+  <g fill="#FFD166">
+    <rect x="452" y="207" width="28" height="24" rx="6"/>
+    <rect x="486" y="207" width="28" height="24" rx="6"/>
+    <rect x="520" y="207" width="28" height="24" rx="6"/>
+    <rect x="452" y="239" width="28" height="24" rx="6"/>
+    <rect x="486" y="239" width="28" height="24" rx="6"/>
+    <rect x="520" y="239" width="28" height="24" rx="6"/>
+    <rect x="452" y="271" width="62" height="24" rx="6"/>
+    <rect x="520" y="271" width="28" height="24" rx="6"/>
+  </g>
+  <path d="M264 100h92l-18 82 42 35v18h-69l-8 52-9-52h-69v-18l43-35-4-82Z" fill="#FFD166" stroke="#101B2E" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="310" cy="179" r="14" fill="#101B2E" opacity=".55"/>
+  <path d="M198 354c92-32 212-30 323 2" stroke="#5EEAD4" stroke-opacity=".22" stroke-width="10" stroke-linecap="round"/>
+</svg>

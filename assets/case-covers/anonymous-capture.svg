@@ -1,0 +1,31 @@
+<svg width="720" height="420" viewBox="0 0 720 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Anonymous capture manipulation case cover</title>
+  <desc id="desc">Abstract case cover with phone capture frame and broken pixels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C1635"/>
+      <stop offset=".56" stop-color="#10213A"/>
+      <stop offset="1" stop-color="#06101E"/>
+    </linearGradient>
+    <linearGradient id="card" x1="172" y1="71" x2="450" y2="346" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F3E8"/>
+      <stop offset="1" stop-color="#DDE7F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="420" rx="34" fill="url(#bg)"/>
+  <rect x="174" y="62" width="260" height="312" rx="32" fill="#091221" stroke="#C4B5FD" stroke-width="6"/>
+  <rect x="198" y="98" width="212" height="230" rx="16" fill="url(#card)"/>
+  <rect x="226" y="130" width="112" height="10" rx="5" fill="#182033" opacity=".76"/>
+  <rect x="226" y="158" width="152" height="10" rx="5" fill="#182033" opacity=".42"/>
+  <rect x="226" y="188" width="132" height="10" rx="5" fill="#182033" opacity=".42"/>
+  <rect x="226" y="220" width="154" height="10" rx="5" fill="#182033" opacity=".42"/>
+  <rect x="226" y="252" width="96" height="10" rx="5" fill="#182033" opacity=".42"/>
+  <path d="M198 124h34V98M376 98h34v26M410 302v26h-34M232 328h-34v-26" stroke="#FFD166" stroke-width="8" stroke-linecap="round"/>
+  <rect x="454" y="122" width="44" height="44" rx="8" fill="#5EEAD4"/>
+  <rect x="508" y="160" width="30" height="30" rx="6" fill="#FFD166"/>
+  <rect x="470" y="214" width="74" height="74" rx="12" fill="#C4B5FD"/>
+  <rect x="557" y="248" width="36" height="36" rx="8" fill="#FB7185"/>
+  <path d="M462 112l118 170M542 96l-84 186" stroke="#F7F3E8" stroke-opacity=".36" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="304" cy="350" r="8" fill="#42516E"/>
+  <path d="M94 103h80M98 334h100M526 82h92M562 354h66" stroke="#C4B5FD" stroke-opacity=".2" stroke-width="5" stroke-linecap="round"/>
+</svg>
