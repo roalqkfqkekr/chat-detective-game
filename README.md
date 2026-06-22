@@ -32,9 +32,12 @@ chat-detective-game/
 │  ├─ icons/
 │  └─ illustrations/
 ├─ index.html
+├─ sitemap.xml
+├─ robots.txt
 ├─ styles.css
 ├─ app.js
 ├─ story.js
+├─ SEARCH_REGISTRATION_GUIDE.md
 └─ README.md
 ```
 
@@ -61,6 +64,42 @@ python -m http.server 8080
 3. `Pages` 메뉴에서 `Deploy from a branch`를 선택합니다.
 4. 브랜치는 `main`, 폴더는 `/root`를 선택합니다.
 5. 생성된 GitHub Pages URL에서 바로 실행됩니다.
+
+## 검색엔진 등록 및 노출 방법
+
+- 사이트 주소: `https://roalqkfqkekr.github.io/chat-detective-game/`
+- sitemap 주소: `https://roalqkfqkekr.github.io/chat-detective-game/sitemap.xml`
+- robots 주소: `https://roalqkfqkekr.github.io/chat-detective-game/robots.txt`
+
+기본 SEO 설정은 `index.html`의 robots, canonical, Open Graph, Twitter Card, theme-color, favicon 메타 태그로 구성되어 있습니다. 검색엔진 등록은 각 서비스 계정 인증이 필요하므로 직접 로그인 후 아래 순서대로 진행합니다.
+
+Google Search Console:
+
+1. `https://search.google.com/search-console`에 접속합니다.
+2. `속성 추가`에서 `URL 접두어`를 선택합니다.
+3. `https://roalqkfqkekr.github.io/chat-detective-game/`를 입력합니다.
+4. HTML 파일 업로드 방식으로 소유권을 인증합니다.
+5. 인증 후 `Sitemaps` 메뉴에서 `https://roalqkfqkekr.github.io/chat-detective-game/sitemap.xml`을 제출합니다.
+6. URL 검사에서 메인 URL을 입력하고 실제 URL 테스트 후 색인 생성을 요청합니다.
+
+Naver Search Advisor:
+
+1. `https://searchadvisor.naver.com`에 접속합니다.
+2. 웹마스터 도구에서 사이트를 등록합니다.
+3. `https://roalqkfqkekr.github.io/chat-detective-game/`를 입력합니다.
+4. HTML 파일 업로드 방식으로 소유확인을 진행합니다.
+5. 사이트맵으로 `https://roalqkfqkekr.github.io/chat-detective-game/sitemap.xml`을 제출합니다.
+6. 웹페이지 수집 요청에 메인 URL을 제출합니다.
+
+Bing Webmaster Tools:
+
+1. `https://www.bing.com/webmasters`에 접속합니다.
+2. 사이트 추가에서 `https://roalqkfqkekr.github.io/chat-detective-game/`를 입력합니다.
+3. 소유권 인증을 완료합니다.
+4. sitemap 제출 메뉴에 `https://roalqkfqkekr.github.io/chat-detective-game/sitemap.xml`을 등록합니다.
+5. URL Submission에서 메인 URL을 제출합니다.
+
+검색 반영에는 며칠에서 몇 주까지 걸릴 수 있으며, 검색 노출 순위는 보장되지 않습니다. GitHub Project Pages에서는 `robots.txt`가 도메인 루트가 아니라 `/chat-detective-game/robots.txt`에 놓입니다. 그래도 sitemap은 Google Search Console, Naver Search Advisor, Bing Webmaster Tools에 직접 제출할 수 있습니다. 장기적으로는 커스텀 도메인을 연결하면 `robots.txt`와 sitemap 관리가 더 깔끔합니다.
 
 ## 포함 에피소드
 
@@ -230,6 +269,15 @@ const STORIES = [STORY, createBroadcastStory(), createAnonymousStory(), createNe
 - 본 프로젝트의 이미지는 실제 메신저 앱, 실제 브랜드, 실제 인물 사진을 사용하지 않고 자체 제작한 SVG 그래픽으로 구성됩니다.
 - 잔혹 범죄, 살인, 성범죄, 자살, 실제 범죄 모방 소재는 제외합니다.
 - 생활형 미스터리, 학교, 동아리, 알바, 팀플, 축제 같은 가벼운 소재 중심으로 운영합니다.
+
+## 보안 및 개인정보 안내
+
+- 현재 프로젝트는 정적 웹앱이라 서버, DB, 로그인, 결제, API 키가 없습니다.
+- 개인정보를 서버로 전송하지 않습니다.
+- 진행 기록, 선택 단서, 설정값은 브라우저 `localStorage`에만 저장됩니다.
+- 정적 사이트 특성상 `story.js`의 정답과 스토리 데이터는 개발자도구에서 볼 수 있습니다.
+- 유료 사건팩, 온라인 랭킹, 계정 기능을 넣을 때는 별도의 서버 구조가 필요합니다.
+- 외부 광고 SDK나 결제 SDK를 추가할 경우 별도의 개인정보/보안 검토가 필요합니다.
 
 ## 향후 이미지 에셋 확장 계획
 
