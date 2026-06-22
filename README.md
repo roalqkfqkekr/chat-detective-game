@@ -4,6 +4,9 @@
 
 기본 포함 사건은 3개입니다. `사라진 축제 정산금`, `잠긴 방송실의 사라진 원본`, `익명 계정의 조작 캡처`를 선택해서 플레이할 수 있습니다.
 
+- 저장소: [chat-detective-game](https://github.com/roalqkfqkekr/chat-detective-game)
+- 배포 링크: [톡탐정 웹게임](https://roalqkfqkekr.github.io/chat-detective-game/)
+
 ## 주요 기능
 
 - 에피소드 선택 허브와 에피소드별 이어하기
